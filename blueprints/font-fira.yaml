@@ -1,0 +1,22 @@
+title: FontFira
+@extends:
+    type: article
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        header.font-fira:
+          type: tab
+          title: ✴ FontFira
+          icon: folder
+          text: Enter details for this FontFira
+
+          fields:
+
+            .notes:
+              type: textarea
+              label: Notes
+              help: Notes about this FontFira
+              size: medium
